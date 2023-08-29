@@ -19,6 +19,7 @@ import PrettyCols as pc
 import matplotlib.pyplot as plt
 ```
 
+```python
 colors = pc.prettycols(name="Bright", n=3, palette_type="discrete")
 x = ['A', 'B', 'C']
 value = [1, 2, 3]
