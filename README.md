@@ -27,4 +27,4 @@ plt.bar(x, value, color=colors)
 plt.show()
 ```
 
-<img src="images/matplotlib-bright.png" width="100%" style="display: block; margin: auto;">
+<img src="images/matplotlib-bright.png" width="70%" style="display: block; margin: auto;">
