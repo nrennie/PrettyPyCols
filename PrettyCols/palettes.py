@@ -7,9 +7,13 @@ PRETTYCOLS_PALETTES = dict(
     Tangerines=dict(colors=("#de7a00", "#F28500", "#FF9B21", "#FFB04F", "#FFC47D", "#ffd6a3", "#ffe1bd"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     Greens=dict(colors=("#416322", "#4e7628", "#5a892f", "#679c35", "#74af3b", "#80c044", "#8dc657"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     Pinks=dict(colors=("#860a4d", "#9e0c5b", "#b50e68", "#cd1076", "#e51284", "#ee2290", "#f03a9c"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
+    Roses=dict(colors=("#48282F", "#6C3C46", "#90505E", "#B56576", "#C38391", "#D2A2AC", "#E1C1C8"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     Teals=dict(colors=("#004c4c", "#006666", "#008080", "#329999", "#66b2b2", "#99cccc", "#cce5e5"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     Yellows=dict(colors=("#e6b400", "#E6C700", "#e8d119", "#ebd632", "#f0e066", "#f2e57f", "#f7efb2"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     Reds=dict(colors=("#B53737", "#BE5151", "#C76B6B", "#D08585", "#D99F9F", "#E3B9B9", "#ECD3D3"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
+    Greys=dict(colors=("#171517", "#363236", "#554F55", "#746D75", "#999399", "#BEBABE", "#E3E1E3"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
+    Aubergines=dict(colors=("#200116", "#361A2D", "#4C3344", "#624D5B", "#796673", "#8F808A", "#A599A1"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
+    Browns=dict(colors=("#24140E", "#542F22", "#844A36", "#B4654A", "#C88E7A", "#DCB7AA", "#F0E0DA"), order=(1, 2, 3, 4, 5, 6, 7), colorblind=True),
     PurpleGreens=dict(colors=("#420f75", "#7640a9", "#ad72d6", "#e7a8fb", "#f5f5f5", "#99ce64", "#659a32", "#326812", "#033800"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9), colorblind=True),
     PinkGreens=dict(colors=("#7f0038", "#c31e6e", "#ef5faf", "#fcaade", "#f5f5f5", "#99ce64", "#659a32", "#326812", "#033800"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9), colorblind=True),
     TangerineBlues=dict(colors=("#552000", "#8a4d00", "#c17d17", "#f8b150", "#f5f5f5", "#93c6e1", "#5f93ac", "#2e627a", "#00344a"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9), colorblind=True),
@@ -33,7 +37,11 @@ PRETTYCOLS_PALETTES = dict(
     Relax=dict(colors=("#4B3F72", "#CBB3BF", "#FFC857", "#119DA4", "#19647E"), order=(1, 2, 3, 4, 5), colorblind=False),
     Lucent=dict(colors=("#E01A4F", "#F15946", "#F9C22E", "#53B3CB", "#7DCFB6"), order=(1, 2, 3, 4, 5), colorblind=False),
     Lively=dict(colors=("#413C58", "#D1495B", "#EDAE49", "#00798C", "#003D5B"), order=(1, 2, 3, 4, 5), colorblind=False),
-    Joyful=dict(colors=("#80A1C1", "#C94277", "#EEE3AB", "#274C77", "#5E8C61"), order=(1, 2, 3, 4, 5), colorblind=False)
+    Joyful=dict(colors=("#80A1C1", "#C94277", "#EEE3AB", "#274C77", "#5E8C61"), order=(1, 2, 3, 4, 5), colorblind=False),
+    Coast=dict(colors=("#16425B", "#48A9A6", "#E4DFDA", "#D4B483", "#C1666B"), order=(1, 2, 3, 4, 5), colorblind=False),
+    Ocean=dict(colors=("#0B132B", "#1C2541", "#3A506B", "#5BC0BE", "#6FFFE9"), order=(1, 2, 3, 4, 5), colorblind=False),
+    Peppers=dict(colors=("#8EA604", "#F5BB00", "#EC9F05", "#D76A03", "#BF3100"), order=(1, 2, 3, 4, 5), colorblind=False),
+    Disco=dict(colors=("#F75C03", "#D90368", "#04A777", "#820263", "#F4E409"), order=(1, 2, 3, 4, 5), colorblind=False)
   )
 
 def prettycols(name, n=None, palette_type="discrete"):
