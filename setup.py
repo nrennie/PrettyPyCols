@@ -6,9 +6,8 @@ LONG_DESCRIPTION = 'Defines aesthetically pleasing colour palettes.'
 
 setup(
         name="PrettyCols",
-        version="1.0.0",
+        version="1.1.0",
         author="Nicola Rennie",
-        author_email="nrennie35@gmail.com>",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
