@@ -25,11 +25,6 @@ PRETTYCOLS_PALETTES = dict(
     Bold=dict(colors=("#6497b1", "#6a359c", "#FFB04F", "#679c35", "#cd1076"), order=(1, 2, 3, 4, 5), colorblind=False),
     Dark=dict(colors=("#436f85", "#432263", "#de7a00", "#416322", "#860a4d"), order=(1, 2, 3, 4, 5), colorblind=False),
     Light=dict(colors=("#97b9cb", "#9057c6", "#ffe1bd", "#8dc657", "#f03a9c"), order=(1, 2, 3, 4, 5), colorblind=False),
-    Neon=dict(colors=("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
-    Summer=dict(colors=("#398db2", "#d8b31e", "#2c350b", "#829625", "#867112", "#5d761e", "#6293a7", "#3e5a5e", "#ac5c05", "#ffa300", "#A47DB9", "#EC94CA"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
-    Autumn=dict(colors=("#774762", "#ba6e1d", "#d6bb3b", "#755028", "#f2dd78", "#205f4b", "#913914", "#585854", "#f0a430", "#768048", "#800000", "#1b3a54"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
-    Winter=dict(colors=("#446c84", "#c0cbdc", "#746e6f", "#c6dcf0", "#596d80", "#B9BFFF", "#a0c4e1", "#897340", "#e1e3e7", "#313c45", "#9ba7b2", "#CAE9F5"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
-    Rainbow=dict(colors=("#e51e32", "#ff782a", "#fda805", "#e2cf04", "#b1ca05", "#98c217", "#779815", "#029e77", "#09989c", "#059ccd", "#3f64ce", "#7e2b8e"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
     Beach=dict(colors=("#0e7c7b", "#17bebb", "#d4f4dd", "#d62246", "#4b1d3f"), order=(1, 2, 3, 4, 5), colorblind=False),
     Fun=dict(colors=("#134074", "#bfab25", "#4ea699", "#efb0a1", "#df2935"), order=(1, 2, 3, 4, 5), colorblind=True),
     Sea=dict(colors=("#86CB92", "#71B48D", "#404E7C", "#3a3559", "#260F26"), order=(1, 2, 3, 4, 5), colorblind=True),
@@ -41,7 +36,14 @@ PRETTYCOLS_PALETTES = dict(
     Coast=dict(colors=("#16425B", "#48A9A6", "#E4DFDA", "#D4B483", "#C1666B"), order=(1, 2, 3, 4, 5), colorblind=False),
     Ocean=dict(colors=("#0B132B", "#1C2541", "#3A506B", "#5BC0BE", "#6FFFE9"), order=(1, 2, 3, 4, 5), colorblind=False),
     Peppers=dict(colors=("#8EA604", "#F5BB00", "#EC9F05", "#D76A03", "#BF3100"), order=(1, 2, 3, 4, 5), colorblind=False),
-    Disco=dict(colors=("#F75C03", "#D90368", "#04A777", "#820263", "#F4E409"), order=(1, 2, 3, 4, 5), colorblind=False)
+    Disco=dict(colors=("#F75C03", "#D90368", "#04A777", "#820263", "#F4E409"), order=(1, 2, 3, 4, 5), colorblind=False),
+    Neon=dict(colors=("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
+    Celestial=dict(colors=("#A053A1", "#DB778F", "#E69F52", "#09A39A", "#5869C7", "#004B67"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
+    Spring=dict(colors=("#AFF595", "#E88FBF", "#88E297", "#86D1FD", "#BDE0F0", "#DCFA98", "#F4FFC7", "#E2A38A", "#DE879C", "#BCE19D", "#E5C171", "#A4D0AE"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
+    Summer=dict(colors=("#398db2", "#d8b31e", "#2c350b", "#829625", "#867112", "#5d761e", "#6293a7", "#3e5a5e", "#ac5c05", "#ffa300", "#A47DB9", "#EC94CA"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
+    Autumn=dict(colors=("#774762", "#ba6e1d", "#d6bb3b", "#755028", "#f2dd78", "#205f4b", "#913914", "#585854", "#f0a430", "#768048", "#800000", "#1b3a54"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
+    Winter=dict(colors=("#446c84", "#c0cbdc", "#746e6f", "#c6dcf0", "#596d80", "#B9BFFF", "#a0c4e1", "#897340", "#e1e3e7", "#313c45", "#9ba7b2", "#CAE9F5"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
+    Rainbow=dict(colors=("#e51e32", "#ff782a", "#fda805", "#e2cf04", "#b1ca05", "#98c217", "#779815", "#029e77", "#09989c", "#059ccd", "#3f64ce", "#7e2b8e"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False)
   )
 
 def prettycols(name, n=None, palette_type="discrete"):
