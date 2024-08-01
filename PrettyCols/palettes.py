@@ -38,12 +38,15 @@ PRETTYCOLS_PALETTES = dict(
     Peppers=dict(colors=("#8EA604", "#F5BB00", "#EC9F05", "#D76A03", "#BF3100"), order=(1, 2, 3, 4, 5), colorblind=False),
     Disco=dict(colors=("#F75C03", "#D90368", "#04A777", "#820263", "#F4E409"), order=(1, 2, 3, 4, 5), colorblind=False),
     Neon=dict(colors=("#ff9062", "#fd6598", "#cb64c0", "#3294dd", "#75fb8a", "#d0eb60"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
+    Oasis=dict(colors=('#AE8A1E', '#0C3A61', '#D60CB6', '#09CED0', '#4D08C5', '#F760BD'), order=(1, 2, 3, 4, 5, 6), colorblind=False),
     Celestial=dict(colors=("#A053A1", "#DB778F", "#E69F52", "#09A39A", "#5869C7", "#004B67"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
+    Aurora=dict(colors=("#53113F", "#6C1A41", "#ABEF07", "#059C59", "#295542", "#5C8797"), order=(1, 2, 3, 4, 5, 6), colorblind=False),
     Spring=dict(colors=("#AFF595", "#E88FBF", "#88E297", "#86D1FD", "#BDE0F0", "#DCFA98", "#F4FFC7", "#E2A38A", "#DE879C", "#BCE19D", "#E5C171", "#A4D0AE"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
     Summer=dict(colors=("#398db2", "#d8b31e", "#2c350b", "#829625", "#867112", "#5d761e", "#6293a7", "#3e5a5e", "#ac5c05", "#ffa300", "#A47DB9", "#EC94CA"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
     Autumn=dict(colors=("#774762", "#ba6e1d", "#d6bb3b", "#755028", "#f2dd78", "#205f4b", "#913914", "#585854", "#f0a430", "#768048", "#800000", "#1b3a54"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
     Winter=dict(colors=("#446c84", "#c0cbdc", "#746e6f", "#c6dcf0", "#596d80", "#B9BFFF", "#a0c4e1", "#897340", "#e1e3e7", "#313c45", "#9ba7b2", "#CAE9F5"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
-    Rainbow=dict(colors=("#e51e32", "#ff782a", "#fda805", "#e2cf04", "#b1ca05", "#98c217", "#779815", "#029e77", "#09989c", "#059ccd", "#3f64ce", "#7e2b8e"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False)
+    Rainbow=dict(colors=("#e51e32", "#ff782a", "#fda805", "#e2cf04", "#b1ca05", "#98c217", "#779815", "#029e77", "#09989c", "#059ccd", "#3f64ce", "#7e2b8e"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False),
+    Velvet=dict(colors=("#090B3C", "#7154A3", "#28125D", "#2A14BE", "#5D649E", "#1A175A", "#1D5A86", "#03487F", "#056B94", "#6D1877", "#890E5C", "#191314"), order=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), colorblind=False)
   )
 
 def prettycols(name, n=None, palette_type="discrete"):
